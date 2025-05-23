@@ -6,6 +6,26 @@
     font-family: 'Avenir', 'Avenir Next Cyr', 'Config', 'Microsoft YaHei', 'Times New Roman';
 }
 
+/* ===== ADD THE LOGO STYLES RIGHT HERE ===== */
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.health-logo {
+  height: 60px; /* Adjust as needed */
+  width: auto;
+  filter: sepia(50%) hue-rotate(-10deg) saturate(1.5); /* Brown tint effect */
+  transition: transform 0.3s ease;
+}
+
+.health-logo:hover {
+  transform: scale(1.05);
+}
+/* ===== END OF LOGO STYLES ===== */
+
 a {
     color: #6567C9;
     text-decoration: none;

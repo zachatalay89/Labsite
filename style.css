@@ -12,16 +12,19 @@
   top: 20px;
   left: 20px;
   z-index: 1000;
+  display: inline-block; /* Ensures proper link sizing */
+  text-decoration: none; /* Removes underline */
 }
 
 .health-logo {
-  height: 60px; /* Adjust as needed */
+  height: 60px;
   width: auto;
-  filter: sepia(50%) hue-rotate(-10deg) saturate(1.5); /* Brown tint effect */
+  filter: sepia(50%) hue-rotate(-10deg) saturate(1.5);
   transition: transform 0.3s ease;
+  display: block; /* Prevents extra space below image */
 }
 
-.health-logo:hover {
+.logo-container:hover .health-logo {
   transform: scale(1.05);
 }
 /* ===== END OF LOGO STYLES ===== */

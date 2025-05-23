@@ -7,7 +7,7 @@
 }
 
 /* ===== ADD THE LOGO STYLES RIGHT HERE ===== */
-.logo-container {
+/* .logo-container {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -26,7 +26,7 @@
 
 .logo-container:hover .health-logo {
   transform: scale(1.05);
-}
+} */
 /* ===== END OF LOGO STYLES ===== */
 
 a {

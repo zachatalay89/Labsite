@@ -198,38 +198,77 @@
         <div class="card-body">
           <h2 class="card-title text-center card-title-margin">Demo Visuals</h2>
           <hr class="body-hr" />
-          <img
-            src="page_1.png"
-            class="figure-img img-fluid rounded"
-            alt="Page 1"
-          />
-          <img
-            src="page_2.png"
-            class="figure-img img-fluid rounded"
-            alt="Page 2"
-          />
-          <img
-            src="page_3.png"
-            class="figure-img img-fluid rounded"
-            alt="Page 3"
-          />
-          <img
-            src="page_4.png"
-            class="figure-img img-fluid rounded"
-            alt="Page 4"
-          />
-          <img
-            src="page_5.png"
-            class="figure-img img-fluid rounded"
-            alt="Page 5"
-          />
-          <img
-            src="page_6.png"
-            class="figure-img img-fluid rounded"
-            alt="Page 6"
-          />
+          <div class="row">
+            <!-- Image 1 -->
+            <div class="col-md-4 text-center mb-4">
+              <div class="image-label">1</div>
+              <img src="page_1.png" class="img-fluid rounded smaller-image" alt="Page 1" />
+            </div>
+            <!-- Image 2 -->
+            <div class="col-md-4 text-center mb-4">
+              <div class="image-label">2</div>
+              <img src="page_2.png" class="img-fluid rounded smaller-image" alt="Page 2" />
+            </div>
+            <!-- Image 3 -->
+            <div class="col-md-4 text-center mb-4">
+              <div class="image-label">3</div>
+              <img src="page_3.png" class="img-fluid rounded smaller-image" alt="Page 3" />
+            </div>
+            <!-- Image 4 -->
+            <div class="col-md-4 text-center mb-4">
+              <div class="image-label">4</div>
+              <img src="page_4.png" class="img-fluid rounded smaller-image" alt="Page 4" />
+            </div>
+            <!-- Image 5 -->
+            <div class="col-md-4 text-center mb-4">
+              <div class="image-label">5</div>
+              <img src="page_5.png" class="img-fluid rounded smaller-image" alt="Page 5" />
+            </div>
+            <!-- Image 6 -->
+            <div class="col-md-4 text-center mb-4">
+              <div class="image-label">6</div>
+              <img src="page_6.png" class="img-fluid rounded smaller-image" alt="Page 6" />
+            </div>
+          </div>
         </div>
       </div>
+      
+      <style>
+        .smaller-image {
+          max-width: 80%; /* Adjust this percentage to make images smaller or larger */
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
+        
+        .image-label {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+        
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px;
+        }
+        
+        .col-md-4 {
+          flex: 0 0 33.333333%;
+          max-width: 33.333333%;
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+        
+        .text-center {
+          text-align: center;
+        }
+        
+        .mb-4 {
+          margin-bottom: 1.5rem;
+        }
+      </style>
 
       <!-- Methodology -->
       <div class="card">

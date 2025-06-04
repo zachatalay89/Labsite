@@ -11,3 +11,16 @@ function copyText() {
 
     // alert("copy success");
 }
+
+function matchRimiHeight() {
+    const brown = document.getElementById('brown-logo');
+    const rimi = document.getElementById('rimi-logo');
+    if (brown && rimi) {
+      rimi.style.height = brown.clientHeight + 'px';
+      rimi.style.width = 'auto';
+    }
+  }
+
+  // Run after images load
+  window.addEventListener('load', matchRimiHeight);
+  window.addEventListener('resize', matchRimiHeight);

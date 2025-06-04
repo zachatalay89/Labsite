@@ -96,6 +96,49 @@
       />
     </a> -->
 
+    <style>
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .logo-container {
+        display: flex;
+        align-items: center;
+      }
+
+      .brown-logo {
+        width: 25%;
+        height: auto;
+      }
+
+      .logo {
+        height: auto;
+        /* Placeholder height — will be matched dynamically in JS if needed */
+        max-height: 100px;
+      }
+
+      /* Optional: constrain RIMI logo height to Brown logo height */
+      .logo:not(.brown-logo) {
+        height: 100%;
+        width: auto;
+        max-height: none;
+      }
+
+      /* Ensures logos don’t overflow or stretch on narrow screens */
+      @media (max-width: 600px) {
+        .header {
+          flex-direction: column;
+        }
+
+        .logo-container {
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+
     <div class="header">
       <a
         href="https://www.brownhealth.org"

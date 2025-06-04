@@ -7,25 +7,6 @@
 }
 
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* we’ll sync height manually */
-    padding: 20px;
-}
-  
-#brown-logo {
-    width: 25%;
-    height: auto;
-}
-  
-#rimi-logo {
-    height: auto;
-    width: auto;
-    max-height: none;
-}
-
-
 a {
     color: #6567C9;
     text-decoration: none;

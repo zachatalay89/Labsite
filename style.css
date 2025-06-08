@@ -152,6 +152,10 @@ a.link:focus, a.link:hover {
     margin-top: 20px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .card-title {
     font-weight: 800;
     font-family: 'Avenir', sans-serif;

@@ -6,6 +6,21 @@
     font-family: 'Avenir', 'Avenir Next Cyr', 'Config', 'Microsoft YaHei', 'Times New Roman';
 }
 
+/* Style for Table of Contents list items */
+.list-group-item {
+    border-radius: 10px; /* Adds rounded edges */
+    text-align: center; /* Centers the text */
+    font-weight: bold; /* Optional: Makes the text bold */
+    background-color: #f8f9fa; /* Optional: Light background color */
+    border: 1px solid #dee2e6; /* Optional: Adds a border */
+    padding: 10px; /* Adds padding for better spacing */
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef; /* Optional: Changes background color on hover */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+}
+
 .modal-fullscreen-custom {
     max-width: 98vw;
     width: 98vw;

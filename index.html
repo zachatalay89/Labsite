@@ -317,6 +317,9 @@
                 src="method_figure.png"
                 class="figure-img img-fluid rounded"
                 alt="method figure"
+                style="cursor:pointer"
+                data-bs-toggle="modal"
+                data-bs-target="#methodModal"
               />
               <!-- <figcaption class="figure-caption">
                 Method Diagram
@@ -326,6 +329,21 @@
         </div>
       </div>
       <br />
+
+      <!-- Modal for Methodology Image -->
+      <div class="modal fade" id="methodModal" tabindex="-1" aria-labelledby="methodModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-custom">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="methodModalLabel">Methodology Figure</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="method_figure.png" alt="method figure large" class="img-fluid rounded" />
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Experiments -->
       <!-- <div class="card">

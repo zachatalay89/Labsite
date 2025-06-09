@@ -6,6 +6,11 @@
     font-family: 'Avenir', 'Avenir Next Cyr', 'Config', 'Microsoft YaHei', 'Times New Roman';
 }
 
+.modal-fullscreen-custom {
+    max-width: 98vw;
+    width: 98vw;
+}
+
 
 a {
     color: #6567C9;
@@ -150,11 +155,10 @@ a.link:focus, a.link:hover {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    cursor: grab;
 }
 
 .logo:hover {
-    cursor: grab;
+    cursor: pointer;
 }
 
 .card-title {

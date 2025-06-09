@@ -6,6 +6,11 @@
     font-family: 'Avenir', 'Avenir Next Cyr', 'Config', 'Microsoft YaHei', 'Times New Roman';
 }
 
+.modal-fullscreen-custom {
+    max-width: 98vw;
+    width: 98vw;
+}
+
 
 a {
     color: #6567C9;

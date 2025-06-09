@@ -11,6 +11,28 @@
     width: 98vw;
 }
 
+.carousel-control-next-icon {
+    background: black;
+    border-radius: 50%; /* Makes the arrows circular */
+    width: 40px; /* Adjust size */
+    height: 40px; /* Adjust size */
+    -webkit-mask: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M11.5 8l-5 5V3l5 5z"/></svg>') no-repeat center; /* Left arrow */
+    mask: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M11.5 8l-5 5V3l5 5z"/></svg>') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+  
+  .carousel-control-prev-icon {
+    background: black;
+    border-radius: 50%; /* Makes the arrows circular */
+    width: 40px; /* Adjust size */
+    height: 40px; /* Adjust size */
+    -webkit-mask: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M4.5 8l5-5v10l-5-5z"/></svg>') no-repeat center; /* Right arrow */
+    mask: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M4.5 8l5-5v10l-5-5z"/></svg>') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
 
 a {
     color: #6567C9;

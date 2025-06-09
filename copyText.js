@@ -12,15 +12,18 @@ function copyText() {
     // alert("copy success");
 }
 
-// function matchRimiHeight() {
-//     const brown = document.getElementById('brown-logo');
-//     const rimi = document.getElementById('rimi-logo');
-//     if (brown && rimi) {
-//       rimi.style.height = brown.clientHeight + 'px';
-//       rimi.style.width = 'auto';
-//     }
-//   }
-
-//   // Run after images load
-//   window.addEventListener('load', matchRimiHeight);
-//   window.addEventListener('resize', matchRimiHeight);
+// Keyboard navigation for carousel
+document.addEventListener("keydown", function (event) {
+    const carousel = document.querySelector("#demoVisualsCarousel");
+    // Check if the carousel exists
+    if (carousel) {
+        // Check if the key pressed is ArrowLeft or ArrowRight
+        if (event.key === "ArrowLeft") {
+            // Navigate to the previous slide
+            carousel.querySelector(".carousel-control-prev").click();
+        } else if (event.key === "ArrowRight") {
+            // Navigate to the next slide
+            carousel.querySelector(".carousel-control-next").click();
+        }
+    }
+});

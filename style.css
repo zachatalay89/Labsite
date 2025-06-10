@@ -6,6 +6,10 @@
     font-family: 'Avenir', 'Avenir Next Cyr', 'Config', 'Microsoft YaHei', 'Times New Roman';
 }
 
+html {
+    scroll-padding-top: 70px; /* Adjust based on your navbar height */
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
 /* Style for Table of Contents list items */
 .list-group-item {
     border-radius: 10px; /* Adds rounded edges */
@@ -92,6 +96,18 @@ a.link:focus, a.link:hover {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* Rainbow gradient font styling */
+.navbar-brand, .nav-link {
+    font-family: 'Avenir', sans-serif; /* Use the same font as other text */
+    background: black;
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* Standard property for compatibility */
+}
+  
+.nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
 /*

@@ -55,10 +55,55 @@
     />
     <!-- favicon -->
     <link rel="icon" href="./brown_logo.png" type="image/png" />
+    <link rel="icon" href="/Labsite/brown_logo.png?v=2" type="image/png" />
   </head>
 
   <body>
-    <div class="header">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">RadiologyGPT</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#header"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#abstract">Abstract</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#demo-visuals">Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#methodology">Methodology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#citation">Citation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header" id="header">
       <a
         href="https://www.brownhealth.org"
         target="_blank"
@@ -94,15 +139,11 @@
     <header class="container">
       <hr />
       <!-- Paper Title -->
-      <div class="container text-center">
+      <div class="container text-center" id="title">
         <span class="title-font x-gradient-font"
           >A Unified Platform for Radiology Report Generation and
           Clinician-Centered AI Evaluation</span
         >
-        <!--         <a class="title-font text-body-emphasis"
-           href="#">
-            Paper Title
-        </a> -->
       </div>
       <hr />
       <!-- author list -->
@@ -189,35 +230,6 @@
     <br />
 
     <main class="container">
-      <!-- Table of Contents -->
-      <div class="card border-0">
-        <div class="card-body x-gradient-block">
-          <h2 class="card-title text-center card-title-margin">
-            Table of Contents
-          </h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <a href="#abstract">Abstract</a>
-            </li>
-            <li class="list-group-item">
-              <a href="#demo-visuals">Demo Visuals</a>
-            </li>
-            <li class="list-group-item">
-              <a href="#methodology">Methodology</a>
-            </li>
-            <!-- <li class="list-group -item">
-              <a href="#experiments">Experiments</a>
-            </li> -->
-            <li class="list-group-item">
-              <a href="#citation">Citation</a>
-            </li>
-            <!-- <li class="list-group-item">
-              <a href="#acknowledgements">Acknowledgements</a>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-      <br />
       <!-- Abstract -->
       <div class="card border-0" id="abstract">
         <div class="card-body x-gradient-block">

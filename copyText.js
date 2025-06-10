@@ -17,6 +17,7 @@ document.addEventListener("keydown", function (event) {
     const carousel = document.querySelector("#demoVisualsCarousel");
     // Check if the carousel exists
     if (carousel) {
+        console.log("Carousel found, listening for keydown events"); // Debug: Log when the carousel is found
         // Check if the key pressed is ArrowLeft or ArrowRight
         if (event.key === "ArrowLeft") {
             // Navigate to the previous slide
